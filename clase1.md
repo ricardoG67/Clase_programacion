@@ -1,6 +1,7 @@
 # Recordando python
 
 Hecho por Ricardo De la Cruz. [Mi github](https://github.com/ricardoG67) y [mi linkedin](https://www.linkedin.com/in/ricardogabrieldelacruz/)  para consultas.
+
 1. Imprimir mensaje en pantalla
 
 ```python
@@ -8,15 +9,19 @@ print("Hello world")
 ```
 
 2. Hacer comentarios en python
+
 ```python
 #Comentario en linea
 ```
+
 3. Declarar variables y tipos de datos
+
 ```python
 soy_un_int = 0
 soy_un_string = "0" 
 soy_un_float = 0.23
 soy_una_lista = ["a", 0, 32.3]
+soy_un_bool = True
 soy_un_diccionario = {
     "nombre": "Ricardo",
     "edad": 22,
@@ -24,6 +29,9 @@ soy_un_diccionario = {
     "cursos matriculados": ["mate", "ingles"]
 }
 ```
+
+Las variables son donde se guarda la información del programa
+
 El string puede ser declarado con doble comillas " o con una '.
 
 Las variables son sensibles a las mayusculas, por lo que la variable "x" es diferente a "X".
@@ -81,6 +89,7 @@ miTerceraFuncion(y,z) #Esta funcion retorna la suma de la variable y + z.
 ```
 
 7. Operaciones básicas
+
 ```python
 #Suma
 10 + 3
@@ -102,6 +111,7 @@ miTerceraFuncion(y,z) #Esta funcion retorna la suma de la variable y + z.
 10 ** 2 #10*10
 
 ```
+
 8. Condiciones IF
 
 ```python
@@ -153,6 +163,7 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
 ```
+
 En este caso x valdra, apple, banana y cherry.
 
 ```python
@@ -166,11 +177,12 @@ En este caso x valdra: b, a, n ... n, a.
 for x in range(6):
   print(x)
 ```
+
 En este caso x valdra: 0, 1, 2, 3 ... 5
 
 ```python
 for x in range(2, 6):
   print(x)
 ```
-En este caso x valdra: 2,3,4,5
 
+En este caso x valdra: 2,3,4,5
